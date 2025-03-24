@@ -1,47 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로또 번호 생성기</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-    <div class="container">
-        <div class ="header">로또 번호 생성기</div>
-        <P>행운의 번호를 생성해보세요</P>
-
-        <div class="GenSection">
-            <div class = "LottoNumber">
-                <span class="num1">?</span>
-                <span class="num2">?</span>
-                <span class="num3">?</span>
-                <span class="num4">?</span>
-                <span class="num5">?</span>
-                <span class="num6">?</span>
-            </div> 
-            <button class="GenBtn">번호 생성하기</button>
+    <div class="whole">
+        <div class="header">
+            <span class="title">로또 번호 생성기</span>
+            <span class="subtitle">행운의 번호를 생성해보세요</span>
         </div>
 
-        <div class="PurchaseSection">
-            <p>로또 구매하기</p>
-            <span>구매 수량:</span>
-            <input type="number">
-            <p>총 금액: 0원(1장당 1,000원)</p>
+        <div class="container">
+            <div class="GenSection">
+                <span class="NumberGen">번호 생성</span>
+                <div class = "LottoNumbers">
+                    <span class="num1">?</span>
+                    <span class="num2">?</span>
+                    <span class="num3">?</span>
+                    <span class="num4">?</span>
+                    <span class="num5">?</span>
+                    <span class="num6">?</span>
+                </div>
 
-            <button class="PurchaseBtn">구매하기</button>
+                <button class="GenBtn">번호 생성하기</button>
+            </div>
 
-
+            <div class="PurchaseSection">
+                <div class="LottoPurchase">로또 구매하기</div>
+                <span>구매 수량:</span>
+                <input type="number">
+                <p>총 금액: 0원(1장당 1,000원)</p>
+                <button class="PurchaseBtn">구매하기</button>
+            </div>
         </div>
-
+    </div>
 </body>
 
 
