@@ -114,7 +114,7 @@ p{
 }
 
 
-.GenBtn{
+#GenBtn{
   font-size: 16px;
   font-weight: 700;
   color: white;
@@ -166,7 +166,8 @@ p{
 .PurchaseLotto span{
   height: 17px;
 }
-.PurchaseBtn{
+
+#PurchaseBtn{
   margin-top: 23px;
   font-size: 16px;
   font-weight: 700;
