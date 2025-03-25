@@ -65,12 +65,12 @@ p{
   margin-top: 22px;
 }
 
-.NumberGen{
+.GenNumber{
   font-size: 18px;
   font-weight: 700;
 }
 
-.LottoNumbers{
+.GenLottoNumbers{
   font-size: 20px;
   font-weight: 700;
   margin-top: 23px;
@@ -78,7 +78,7 @@ p{
   display: flex;
 }
 
-.LottoNumbers span{
+.GenLottoNumbers span{
   width: 45px;
   height: 45px;
   border-radius: 50%; 
@@ -89,27 +89,27 @@ p{
 }
 
 
-.LottoNumbers span:nth-child(1) {
+.GenLottoNumbers span:nth-child(1) {
   background-color: #FBC400;
 }
 
-.LottoNumbers span:nth-child(2) {
+.GenLottoNumbers span:nth-child(2) {
   background-color: #69C8F2;
 }
 
-.LottoNumbers span:nth-child(3) {
+.GenLottoNumbers span:nth-child(3) {
   background-color: #FF7272;
 }
 
-.LottoNumbers span:nth-child(4) {
+.GenLottoNumbers span:nth-child(4) {
   background-color: #AAAAAA;
 }
 
-.LottoNumbers span:nth-child(5) {
+.GenLottoNumbers span:nth-child(5) {
   background-color: #B0D840;
 }
 
-.LottoNumbers span:nth-child(6) {
+.GenLottoNumbers span:nth-child(6) {
   background-color: #FBC400;
 }
 
@@ -156,14 +156,14 @@ p{
   margin-bottom: 0px;
 }
 
-.LottoPurchase{
+.PurchaseLotto{
   margin-top: 23px;
   font-size: 18px;
   font-weight: 700;
   height: 20px;
 }
 
-.LottoPurchase span{
+.PurchaseLotto span{
   height: 17px;
 }
 .PurchaseBtn{
