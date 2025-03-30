@@ -11,7 +11,7 @@ body{
   border: 1px solid #DDDDDD;
   border-radius: 10px;
   width: 500px;
-  height: 520px;
+  height: 512px;
 }
 
 
@@ -136,6 +136,7 @@ p{
 .PurchaseQuantity{
   margin-top: 22px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -173,3 +174,4 @@ p{
   border : 0px;
   background-color: #4B89DC;
 }
+
