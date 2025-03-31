@@ -5,12 +5,11 @@ function GenRandomNumbers(min, max){
 }
 
 let Numbers = new Set();
-let count=0;
 
 while (Numbers.size<6){
     let randomNumber = GenRandomNumbers(1,45);
-    console.log(randomNumber);
     Numbers.add(randomNumber)
-    count++;
+    Numbers = new Set([...Numbers].sort((a, b) => a - b));
 }
 
+console.log([...Numbers]);  
