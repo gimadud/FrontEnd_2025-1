@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Search web</title>
+</head>
+<body>
+    <h1>
+        <img src= "https://cdn-icons-png.freepik.com/512/2014/2014445.png?ga=GA1.1.1279234850.1745667466" class="globe">   
+        나라 검색기
+    </h1>
+    
+    <div class="whole-container">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="나라 이름을 영어로 입력하세요.">
+            <button id="search-button">검색</button> 
+        </div>
+
+        <div id="result-container">
+            <img id="flag" src=" " alt=" " class="flag">
+            <div id="country-name" class="country-name">국가 이름</div>
+            <div class="capital-name">수도: <span id="capital-name"></span></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
